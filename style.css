@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 400px;
+  height: 500px;
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px 30px;
+  margin: 50px auto;
+}
+.container input {
+  width: 330px;
+  height: 40px;
+  padding: 7px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid rgb(193, 192, 192);
+  caret-color: rgb(13, 185, 87);
+}
+.container input.text {
+  width: 330px;
+  height: 40px;
+  padding: 7px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid rgb(237, 17, 17);
+  caret-color: rgb(37, 74, 53);
+}
+.container input.field {
+  width: 330px;
+  height: 40px;
+  padding: 7px;
+  outline: none;
+  border: none;
+  border-bottom: 2px dotted rgb(193, 192, 192);
+  caret-color: rgb(37, 74, 53);
+}
+.container input.green {
+  width: 330px;
+  height: 40px;
+  padding: 7px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid seagreen;
+  caret-color: seagreen;
+}
+.container .text {
+  display: flex;
+  justify-content: space-between;
+}
+.container .text p {
+  font-size: 12px;
+  color: red;
+}
+.container .text i {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
